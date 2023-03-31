@@ -1,3 +1,6 @@
+
+//animation bug , not loading in
+
 //all vars here
 var player
 var player_moving
@@ -85,7 +88,7 @@ inviswall4 = createSprite(-30,480,5,400)
 inviswall4.visible = false
 //PLAYER 
 player = createSprite(350,350,5,55)
-player.addAnimation(player_moving)
+player.addAnimation("player",player_moving)
 player.scale = 2
 player.setCollider("rectangle",0,-10,20,35)
 
